@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Choreography", "Choreography", "{AB7ECF60-3732-4EE4-BFCB-2AF7F8198C2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Choreography.Rockets", "Choreography\Saga.Choreography.Rockets\Saga.Choreography.Rockets.csproj", "{F17D006E-7AF9-4315-A374-467249D0059B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Choreography.Launches", "Choreography\Saga.Choreography.Launches\Saga.Choreography.Launches.csproj", "{63813E6D-FEC0-4035-A763-51330F5C4ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Choreography.Monitoring", "Choreography\Saga.Choreography.Monitoring\Saga.Choreography.Monitoring.csproj", "{B2EE750F-2442-49B8-B740-E8FC2B87F1A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Orchestration", "Orchestration", "{BCA167E3-2224-45AC-90BA-8F79ED6F90DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Rockets", "Orchestration\Saga.Orchestration.Rockets\Saga.Orchestration.Rockets.csproj", "{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Orchestrator", "Orchestration\Saga.Orchestration.Orchestrator\Saga.Orchestration.Orchestrator.csproj", "{F2A1F6CC-6066-47FC-838E-B81D0E6B7809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Launches", "Orchestration\Saga.Orchestration.Launches\Saga.Orchestration.Launches.csproj", "{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Monitoring", "Orchestration\Saga.Orchestration.Monitoring\Saga.Orchestration.Monitoring.csproj", "{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Choreography.Shared", "Choreography\Saga.Choreography.Shared\Saga.Choreography.Shared.csproj", "{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Orchestration.Shared", "Orchestration\Saga.Orchestration.Shared\Saga.Orchestration.Shared.csproj", "{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F17D006E-7AF9-4315-A374-467249D0059B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17D006E-7AF9-4315-A374-467249D0059B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17D006E-7AF9-4315-A374-467249D0059B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17D006E-7AF9-4315-A374-467249D0059B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63813E6D-FEC0-4035-A763-51330F5C4ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63813E6D-FEC0-4035-A763-51330F5C4ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63813E6D-FEC0-4035-A763-51330F5C4ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63813E6D-FEC0-4035-A763-51330F5C4ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2EE750F-2442-49B8-B740-E8FC2B87F1A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2EE750F-2442-49B8-B740-E8FC2B87F1A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2EE750F-2442-49B8-B740-E8FC2B87F1A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2EE750F-2442-49B8-B740-E8FC2B87F1A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2A1F6CC-6066-47FC-838E-B81D0E6B7809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A1F6CC-6066-47FC-838E-B81D0E6B7809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A1F6CC-6066-47FC-838E-B81D0E6B7809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A1F6CC-6066-47FC-838E-B81D0E6B7809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F17D006E-7AF9-4315-A374-467249D0059B} = {AB7ECF60-3732-4EE4-BFCB-2AF7F8198C2C}
+		{63813E6D-FEC0-4035-A763-51330F5C4ADA} = {AB7ECF60-3732-4EE4-BFCB-2AF7F8198C2C}
+		{B2EE750F-2442-49B8-B740-E8FC2B87F1A3} = {AB7ECF60-3732-4EE4-BFCB-2AF7F8198C2C}
+		{4BD5B7C8-50BB-40FD-A047-18F5F67F47FC} = {BCA167E3-2224-45AC-90BA-8F79ED6F90DC}
+		{F2A1F6CC-6066-47FC-838E-B81D0E6B7809} = {BCA167E3-2224-45AC-90BA-8F79ED6F90DC}
+		{D1D2527A-52D7-4CAA-8AB6-D3CFD1A31A8E} = {BCA167E3-2224-45AC-90BA-8F79ED6F90DC}
+		{0CFB0CB8-3563-4C77-B4FD-FDC1FA74A657} = {BCA167E3-2224-45AC-90BA-8F79ED6F90DC}
+		{F4BCCD44-95EA-4991-9ABC-CB3B770FFB20} = {AB7ECF60-3732-4EE4-BFCB-2AF7F8198C2C}
+		{77173EF5-1DE5-49B6-9C6D-C1345FC56F7D} = {BCA167E3-2224-45AC-90BA-8F79ED6F90DC}
+	EndGlobalSection
+EndGlobal
